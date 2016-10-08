@@ -1,4 +1,4 @@
-# Tag 1, Grundlagen und eine übung mit Pixate
+# Tag 1, Grundlagen und eine Übung mit Pixate
 
 ## Eine Faustregel
 
