@@ -89,15 +89,15 @@ Dürfte vom Funktionsumfang her ähnlich wie Flinto sein. Es scheint auch hier S
 
 ### Adobe XD (Experience Design)
 
-Adobe plant wieder einmal etwas grösserers, es gibt aber erst eine [Testversion](https://www.adobe.com/products/experience-design.html).
+Adobe plant wieder einmal etwas Grösserers, es gibt aber erst eine [Testversion](https://www.adobe.com/products/experience-design.html).
 
 ### Adobe After Effects
 
-Was Photoshop für Bilder ist, ist After Effects für Film. Das ist das professionellste Tool für Animation, aber im Zusammenhang mit UI Design ist das mit Kanonen auf Spatzen geschossen.
+Was Photoshop für Bilder ist, ist After Effects für Film. Es ist das professionellste Tool für Animation, aber im Zusammenhang mit UI Design ist das mit Kanonen auf Spatzen geschossen.
 
 ## Übung mit Pixate
 
-Einfache «Automaten» herstellen. Ziel: schnelle Produktion simpler Interfaces. 2. Einfacher Workflow von Skizze bis Video.
+Einfache «Automaten» herstellen. Ziel: schnelle Produktion simpler Interfaces, einfacher Workflow von Skizze bis Video.
 
 * Ein Knopf, zwei Zustände
 * Wer sicher ist, kann versuchen, zwei- bis dreistufige Abläufe zu machen.
