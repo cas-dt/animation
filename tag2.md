@@ -137,12 +137,12 @@ Mit JavaScript lässt sich nicht nur beliebig manipulieren, wie der Browser Quel
 * [ Why iOS 7 is making some users sick ](http://www.theguardian.com/technology/2013/sep/27/ios-7-motion-sickness-nausea)
 
 ## Coding / Specs
+
 * [CSS Tricks – Animation](https://css-tricks.com/almanac/properties/a/animation/)
-* [Mozilla Developer Network – @keyframes](https://developer.mozilla.org/de/docs/Web/CSS/@keyframes)
 * [CSS Tricks – Transition](https://css-tricks.com/almanac/properties/t/transition/)
 * [CSS Animatable Properties](oli.jp/2010/css-animatable-properties/)
 * [CSS Animation Rocks](https://cssanimation.rocks/)
-* [CSS Keyframes](https://developer.mozilla.org/de/docs/Web/CSS/@keyframes)
+* [Mozilla Developer Network – @keyframes](https://developer.mozilla.org/de/docs/Web/CSS/@keyframes)
 * [CSS Transitions Standard](www.w3.org/TR/css3-transitions/)
 * [W3C Working Draft – CSS Animations Standard](www.w3.org/TR/css3-animations/)
 * [Paul Lewis & Paul Irish – High Performance Animations](www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
