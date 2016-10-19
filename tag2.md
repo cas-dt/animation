@@ -23,6 +23,8 @@ Interpolieren von Position, Grösse, Drehung und Deckkraft verbraucht wenig Rech
     opacity:   n;                   /* Deckkraft, 0–1      */
 ```
 
+Weitere Information zur CSS-Eigenschaft `transform` finden sich z.B. im [entsprechenden Artikel des Mozilla Developer Networks](https://developer.mozilla.org/de/docs/Web/CSS/transform).
+
 ## CSS-Animation
 
 Die CSS Eigenschaft animation fasst folgende Eigenschaften zusammen:
@@ -34,6 +36,8 @@ Die CSS Eigenschaft animation fasst folgende Eigenschaften zusammen:
     animation-delay           /* Sekunden oder Millisekunden                   */
     animation-iteration-count /* 0–infinite                                    */
     animation-direction       /* normal, reverse, alternate, alternate-reverse */
+    animation-fill-mode       /* none, forwards, backwards, both               */
+    animation-play-state      /* paused, running                               */
 ```
 
 ### @keyframes
