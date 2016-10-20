@@ -42,7 +42,7 @@ Die CSS Eigenschaft animation fasst folgende Eigenschaften zusammen:
 
 ### @keyframes
 
-In der CSS-Regel ```@keyframes```, gefolgt vom Namen einer Animation, werden die Werte definiert, zwischen denen interpoliert wird: Start, Schluss und bei Bedarf Zwischenschritte. Erlaubt sind Angaben in Prozenten von 0–100, dazu `$1` und `$1` für Anfang und Ende der Animation.
+In der CSS-Regel ```@keyframes```, gefolgt vom Namen einer Animation, werden die Werte definiert, zwischen denen interpoliert wird: Start, Schluss und bei Bedarf Zwischenschritte. Erlaubt sind Angaben in Prozenten von 0–100, dazu `from` und `to` für Anfang und Ende der Animation.
 
 ```css
     @keyframes grow {
@@ -55,7 +55,23 @@ In der CSS-Regel ```@keyframes```, gefolgt vom Namen einer Animation, werden die
 
 ### Anmerkungen
 
+#### Reihenfolge der Werte in ‘animation’
+
 Die Reihenfolge der Werte ist nur teilweise geregelt. Als erstes muss der Name aufgeführt werden. Falls Dauer und Verzögerung definiert werden, muss die Dauer zuerst angegeben werden.
+
+#### Text animieren / inline-block
+
+Achtung beim animieren von Text: Inline-Elemente wie `<p>` erstrecken sich über die ganze Spalte, dadurch ist der Referenzpunkt meist anderswo als erwartet. Um zu sehen, wie gross ein Element ist, kann es helfen, einen `border: solid 1px black;` darum zu zeichnen oder den `background: hotpink;` zu färben.
+
+Um beispielsweise ein kurzes Wort zu rotieren, kann die Darstellungsform von inline zu inline-block geändert werdn, dadurch passt sich die Grösse des Elements an seinen Inhalt an.
+
+```css
+    .kurzes-wort {
+         display: inline-block;
+    }
+
+#### Vendor Prefixes
+
 Für ältere Browser-Versionen sind [Vendor-Prefixes](https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix) notwendig:
 
 ```css
@@ -92,14 +108,14 @@ Einblenden eines HTML-Elements mit der Klasse «cas-dt».
     }
 ```
 
-## Timing Functions (‘ease’)
+## Timing Functions (ease)
 
 Eine Bewegung muss nicht mit konstanter Geschwindigkeit ablaufen. Die verschiedenen Varianten von «ease»-Werten entsprechen kurvenförmigen Beschleunigungswerten über die Dauer einer Animation.
 
 ```css
     linear	              [konstante Geschwindigkeit]
-    ease	              [[langsamer Start, langsames Ende]
-    ease-in	              [[langsamer Start, Beschleuigung am Ende]
+    ease	              [langsamer Start, langsames Ende]
+    ease-in	              [langsamer Start, Beschleuigung am Ende]
     ease-out              [Schneller Start, Verlangsamung gegen Ende]
     ease-in-out           [langsamer Start, langsames Ende (Variante)]
     cubic-bezier(n,n,n,n) [Eigene Kurve]
@@ -167,12 +183,12 @@ Mit JavaScript lässt sich nicht nur beliebig manipulieren, wie der Browser Quel
 
 ## JavaScript, jQuery et al
 
-* [Codecademy – jQuery Lehrgang](www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
 * [jquery UI](http://jqueryui.com/)
 * [jquery Effects](http://jqueryui.com/effect/)
-* [Popmotion.js](http://popmotion.io/)
-* [Mo.js](http://mojs.io)
-* [ScrollMagic](http://scrollmagic.io/)
+* [Popmotion.js – The JavaScript motion engine](http://popmotion.io/)
+* [Mo.js – Motion for the web](http://mojs.io)
+* [Skrollr – Prallax scrolling for the masses](url)
+* [ScrollMagic – The javascript library for magical scroll interactions](http://scrollmagic.io/)
 
 ## Ungeordnete
 
