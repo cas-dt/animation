@@ -146,13 +146,62 @@ Wie mit der Problematik umgegangen wird, ist Ermessenssache und hängt davon ab,
 
 ## Übung
 
-Aufgabe: Auszeichnen der Titel und der Links in folgendem HTML-Dokument mittels Animation. Einmal dezent, einmal extrem. CodePen-Link per Slack an die Lehrperson.
+Aufgabe: Dien HTML- und CSS-Code unten in CodePen übertragen. Titel mit `animation` auszeichnen, Links mit `transition`. Einmal dezent, einmal extravagant. CodePen-Link per Slack an die Lehrperson.
 
 ```html
+<div id="spalte">
+  <h1>Bienengarnele</h1>
 
+  <p>Die <a href="https://goo.gl/isGxxf">Bienengarnele</a> (Caridina logemanni) ist eine aus <a href="https://goo.gl/Dqtzjz">Hongkong</a> stammende <a href="https://goo.gl/qKC2a0">Süßwassergarnele</a> (Atyidae) aus der <a href="https://goo.gl/t0JIDA">Gattung Caridina</a>. Wegen ihres attraktiven Erscheinungsbildes und ihrer relativ unproblematischen
+    Haltung wird sie häufig in Aquarien gepflegt. Eine rote Farbvariante wird unter der Bezeichnung „Crystal Red“ oder auch „Kristallrote Zwerggarnele“ gehandelt.</p>
+  <ul>
+    <li><a href="goo.gl/biLu8m" target="_blank">Crystal Red</a></li>
+    <li><a href="https://goo.gl/Dzrk4f" target="_blank">Black Bee</a></li>
+    <li><a href="https://goo.gl/TtQOlF" target="_blank">Red Bee</a></li>
+    <li><a href="https://goo.gl/efXvib" target="_blank">Snow White</a></li>
+    <li><a href="https://goo.gl/8ee8pY" target="_blank">Blue Bolt</a></li>
+    <li><a href="https://goo.gl/GVzACx" target="_blank">Panda</a></li>
+    <li><a href="https://goo.gl/G6KwLY" target="_blank">Red Ruby</a></li>
+  </ul>
+</div>
 ```
 
 ```css
+#spalte {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  display: inline-block;
+  animation-name: titel;
+  animation-duration/* Sekunden oder Millisekunden */
+  animation-timing-function/* linear, ease, ease-in, ease-in-out, ease-out */
+  animation-iteration-count/* 0–infinite */
+  animation-direction/* normal, reverse, alternate, alternate-reverse */
+}
+
+@keyframes titel {
+  from { /* Anfangswert */ }
+  to { /* Endwert */ }
+}
+
+a:link,
+a:visited {
+  /* eigenschaft: wert1;
+  transition: eigenschaft 2s; */
+}
+
+a:hover {
+  /* eigenschaft: wert2; */
+}
+
+
+/*
+Bonus: die Links im Text lassen sich von den Links in der Liste unterscheiden:
+p a {}
+li a {}
+*/
 ```
 
 ## Links
@@ -189,6 +238,7 @@ Aufgabe: Auszeichnen der Titel und der Links in folgendem HTML-Dokument mittels 
 * [CSS Tricks – Transition](https://css-tricks.com/almanac/properties/t/transition/)
 * [CSS Animatable Properties](oli.jp/2010/css-animatable-properties/)
 * [CSS Animation Rocks](https://cssanimation.rocks/)
+[Mozilla Developer Network – Using CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 * [Mozilla Developer Network – @keyframes](https://developer.mozilla.org/de/docs/Web/CSS/@keyframes)
 * [CSS Transitions Standard](www.w3.org/TR/css3-transitions/)
 * [W3C Working Draft – CSS Animations Standard](www.w3.org/TR/css3-animations/)
