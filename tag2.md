@@ -45,12 +45,12 @@ Die CSS Eigenschaft animation fasst folgende Eigenschaften zusammen:
 In der CSS-Regel ```@keyframes```, gefolgt vom Namen einer Animation, werden die Werte definiert, zwischen denen interpoliert wird: Start, Schluss und bei Bedarf Zwischenschritte. Erlaubt sind Angaben in Prozenten von 0–100, dazu `from` und `to` für Anfang und Ende der Animation.
 
 ```css
-    @keyframes grow {
-        from { transform: scale(1); }  /* statt 'from' ginge auch '0%' */
-        to   { transform: scale(2); }  /* statt 'to' ginge auch '100%' */
-    }
+@keyframes grow {
+    from { transform: scale(1); }  /* statt 'from' ginge auch '0%' */
+    to   { transform: scale(2); }  /* statt 'to' ginge auch '100%' */
+}
 
-    .cas-dt { animation: grow 2s ease 0 infinite alternate; }
+.cas-dt { animation: grow 2s ease 0 infinite alternate; }
 ```
 
 ### Anmerkungen
@@ -66,19 +66,20 @@ Achtung beim animieren von Text: Inline-Elemente wie `<p>` erstrecken sich über
 Um beispielsweise ein kurzes Wort zu rotieren, kann die Darstellungsform von inline zu inline-block geändert werdn, dadurch passt sich die Grösse des Elements an seinen Inhalt an.
 
 ```css
-    .kurzes-wort {
-         display: inline-block;
-    }
+.kurzes-wort {
+     display: inline-block;
+}
+```
 
 #### Vendor Prefixes
 
 Für ältere Browser-Versionen sind [Vendor-Prefixes](https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix) notwendig:
 
 ```css
-    -webkit-animation  {}  @-webkit-keyframes  {}  /* Chrome, Safari, neuere Opera Versionen */
-    -moz-animation     {}  @-moz-keyframes     {}  /* Firefox                                */
-    -ms-animation      {}  @-ms-keyframes      {}  /* Internet Explorer                      */
-    -o-animation       {}  @-o-keyframes       {}  /* ältere Opera Versionen                 */
+-webkit-animation  {}  @-webkit-keyframes  {}  /* Chrome, Safari, neuere Opera Versionen */
+-moz-animation     {}  @-moz-keyframes     {}  /* Firefox                                */
+-ms-animation      {}  @-ms-keyframes      {}  /* Internet Explorer                      */
+-o-animation       {}  @-o-keyframes       {}  /* ältere Opera Versionen                 */
 ```
 
 ## CSS Transitions
@@ -97,15 +98,15 @@ Die CSS Eigenschaft transition fasst folgende Eigenschaften zusammen:
 Einblenden eines HTML-Elements mit der Klasse «cas-dt».
 
 ```css
-    .cas-dt {
-        color: black;
-        opacity: 0.5;
-        transition: opacity 0.5s ease-out 0;
-    }
+.cas-dt {
+    color: black;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-out 0;
+}
 
-    .cas-dt:hover {
-        opacity: 1;
-    }
+.cas-dt:hover {
+    opacity: 1;
+}
 ```
 
 ## Timing Functions (ease)
@@ -113,12 +114,12 @@ Einblenden eines HTML-Elements mit der Klasse «cas-dt».
 Eine Bewegung muss nicht mit konstanter Geschwindigkeit ablaufen. Die verschiedenen Varianten von «ease»-Werten entsprechen kurvenförmigen Beschleunigungswerten über die Dauer einer Animation.
 
 ```css
-    linear	              [konstante Geschwindigkeit]
-    ease	              [langsamer Start, langsames Ende]
-    ease-in	              [langsamer Start, Beschleuigung am Ende]
-    ease-out              [Schneller Start, Verlangsamung gegen Ende]
-    ease-in-out           [langsamer Start, langsames Ende (Variante)]
-    cubic-bezier(n,n,n,n) [Eigene Kurve]
+linear	              [konstante Geschwindigkeit]
+ease	              [langsamer Start, langsames Ende]
+ease-in	              [langsamer Start, Beschleuigung am Ende]
+ease-out              [Schneller Start, Verlangsamung gegen Ende]
+ease-in-out           [langsamer Start, langsames Ende (Variante)]
+cubic-bezier(n,n,n,n) [Eigene Kurve]
 ```
 
 ## :hover und :active
