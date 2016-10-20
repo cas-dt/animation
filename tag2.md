@@ -251,16 +251,13 @@ Das [Ganze in CodePen](http://codepen.io/oolong32/pen/xEmGQW).
 ## Codepen Accounts im Zusammenhang mit Animation
 
 * [codepen.io – Amelia Bellamy-Royds](http://codepen.io/AmeliaBR/)
-* [codepen.io – Sarah Drasner](http://codepen.io/sdras/)
+* [codepen.io – Anna Tudor](http://codepen.io/thebabydino/) 
 * [codepen.io – Chris Gannon](http://codepen.io/chrisgannon/)
 * [codepen.io – CJ Gammon](http://codepen.io/cjgammon/)
-* [codepen.io – Val Head](codepen.io/valhead)
 * [codepen.io – Lego Mushroom](http://codepen.io/sol0mka/) 
-* [codepen.io – Anna Tudor](http://codepen.io/thebabydino/) 
 * [codepen.io – Tiffany Rayside](http://codepen.io/tmrDevelops/)
-* [codepen.io – Rachel Smith](codepen.io/rachsmith)
-* [codepen.io – Petr Tlchy](http://codepen.io/ihatetomatoes/)
 * [codepen.io – Joni Trythall](http://codepen.io/jonitrythall/)
+* [codepen.io – Petr Tlchy](http://codepen.io/ihatetomatoes/)
 
 ## JavaScript, jQuery et al
 
