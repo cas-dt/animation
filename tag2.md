@@ -146,7 +146,7 @@ Wie mit der Problematik umgegangen wird, ist Ermessenssache und hängt davon ab,
 
 ## Übung
 
-Aufgabe: Dien HTML- und CSS-Code unten in CodePen übertragen. Titel mit `animation` auszeichnen, Links mit `transition`. Einmal dezent, einmal extravagant. CodePen-Link per Slack an die Lehrperson.
+Aufgabe: Den HTML- und CSS-Code unten in CodePen übertragen. Titel mit `animation` auszeichnen, Links mit `transition`. Einmal dezent, einmal extravagant. CodePen-Link per Slack an die Lehrperson.
 
 ```html
 <div id="spalte">
@@ -163,6 +163,7 @@ Aufgabe: Dien HTML- und CSS-Code unten in CodePen übertragen. Titel mit `animat
     <li><a href="https://goo.gl/GVzACx" target="_blank">Panda</a></li>
     <li><a href="https://goo.gl/G6KwLY" target="_blank">Red Ruby</a></li>
   </ul>
+  <img src="https://goo.gl/GVzACx" alt="Panda Garnele">
 </div>
 ```
 
@@ -196,6 +197,7 @@ a:hover {
   /* eigenschaft: wert2; */
 }
 
+img { width: 100%; height: auto; }
 
 /*
 Bonus: die Links im Text lassen sich von den Links in der Liste unterscheiden:
@@ -203,6 +205,8 @@ p a {}
 li a {}
 */
 ```
+
+Das [Ganze in CodePen](http://codepen.io/oolong32/pen/xEmGQW).
 
 ## Links
 
