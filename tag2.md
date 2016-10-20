@@ -27,7 +27,7 @@ Weitere Information zur CSS-Eigenschaft `transform` finden sich z.B. im [entspre
 
 ## CSS-Animation
 
-Die CSS Eigenschaft animation fasst folgende Eigenschaften zusammen:
+Die CSS Eigenschaft ‘animation’ fasst folgende Eigenschaften zusammen:
 
 ```css
 animation-name            /* Referenz für @keyframes, siehe unten          */
@@ -61,9 +61,11 @@ Die Reihenfolge der Werte ist nur teilweise geregelt. Als erstes muss der Name a
 
 #### Text animieren / inline-block
 
-Achtung beim animieren von Text: Inline-Elemente wie `<p>` erstrecken sich über die ganze Spalte, dadurch ist der Referenzpunkt meist anderswo als erwartet. Um zu sehen, wie gross ein Element ist, kann es helfen, einen `border: solid 1px black;` darum zu zeichnen oder den `background: hotpink;` zu färben.
+Achtung beim Animieren von Text: Inline-Elemente wie `<p>` erstrecken sich über die ganze Spalte, dadurch ist der Referenzpunkt meist anderswo als erwartet (der Referenzpunkt ist beispielsweise das Zentrum einer Rotation).
 
 Um beispielsweise ein kurzes Wort zu rotieren, kann die Darstellungsform von inline zu inline-block geändert werdn, dadurch passt sich die Grösse des Elements an seinen Inhalt an.
+
+Um zu sehen, wie gross ein Element ist, kann es helfen, einen `border: solid 1px black;` darum zu zeichnen oder den `background: hotpink;` zu färben.
 
 ```css
 .kurzes-wort {
