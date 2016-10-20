@@ -148,7 +148,7 @@ Wie mit der Problematik umgegangen wird, ist Ermessenssache und hängt davon ab,
 
 Aufgabe: Den HTML- und CSS-Code unten in CodePen übertragen. Titel mit `animation` auszeichnen, Links mit `transition`. Einmal dezent, einmal extravagant. CodePen-Link per Slack an die Lehrperson.
 
-Hilfestellung zu [CSS-Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) und zu [CSS-Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) und zur Eigenschaft [transform](https://developer.mozilla.org/de/docs/Web/CSS/transfor://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms).
+Hilfestellung zu [CSS-Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) und zu [CSS-Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) und zur Eigenschaft [transform](https://developer.mozilla.org/de/docs/Web/CSS/transform).
 
 ```html
 <div id="spalte">
