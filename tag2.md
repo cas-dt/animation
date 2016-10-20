@@ -116,12 +116,12 @@ Einblenden eines HTML-Elements mit der Klasse «cas-dt».
 Eine Bewegung muss nicht mit konstanter Geschwindigkeit ablaufen. Die verschiedenen Varianten von «ease»-Werten entsprechen kurvenförmigen Beschleunigungswerten über die Dauer einer Animation.
 
 ```css
-linear	              [konstante Geschwindigkeit]
-ease	              [langsamer Start, langsames Ende]
-ease-in	              [langsamer Start, Beschleuigung am Ende]
-ease-out              [Schneller Start, Verlangsamung gegen Ende]
-ease-in-out           [langsamer Start, langsames Ende (Variante)]
-cubic-bezier(n,n,n,n) [Eigene Kurve]
+linear	              /* konstante Geschwindigkeit                  */
+ease	              /* langsamer Start, langsames Ende            */
+ease-in	              /* langsamer Start, Beschleuigung am Ende     */
+ease-out              /* Schneller Start, Verlangsamung gegen Ende  */
+ease-in-out           /* langsamer Start, langsames Ende (Variante) */
+cubic-bezier(n,n,n,n) /* Eigene Kurve                               */
 ```
 
 ## :hover und :active
@@ -133,6 +133,27 @@ Ein Problem im Zusammenhang mit CSS-Transitions stellt sich bei Touch-Devices. D
 Mit JavaScript lässt sich erreichen, dass das einmalige Antippen eines Elements als `:hover` interpretiert wird, und erst das zweite Tippen als `:active`. Mit JavaScript lässt sich nicht nur beliebig manipulieren, wie der Browser Quelltext verarbeitet, sondern auch wie er Interaktionen prozes-siert. Es stellt sich natürlich die Frage, wie sinnvoll es ist, eine Art der Interaktion, die auf den Eigenschaften des Cursors basiert, in eine Umgebung ohne Cursor zu Übersetzen.
 
 Wie mit der Problematik umgegangen wird, ist Ermessenssache und hängt davon ab, ob CSS-Transitions je nach Art des Endgeräts unterschiedlich gehandhabt werden.
+
+### Referenzbeispiele
+
+* [Erste Animation](http://codepen.io/oolong32/pen/pgovXK)
+* [Einfache Animation](http://codepen.io/oolong32/pen/MYEKBM)
+* [Text rotieren](http://codepen.io/oolong32/pen/jrQZJV)
+* [Text rotieren in 3D](http://codepen.io/oolong32/pen/GoRRoX?editors=1100)
+* [Animierte Hintergrundfarbe](http://codepen.io/oolong32/pen/avemyg)
+* [Transition: Animierte Links](http://codepen.io/oolong32/pen/wKVgNz)
+* [Transition: nach Media Query](http://codepen.io/oolong32/pen/VewYqY?editors=1100)
+
+## Übung
+
+Aufgabe: Auszeichnen der Titel und der Links in folgendem HTML-Dokument mittels Animation. Einmal dezent, einmal extrem. CodePen-Link per Slack an die Lehrperson.
+
+```html
+
+```
+
+```css
+```
 
 ## Links
 
