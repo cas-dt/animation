@@ -126,10 +126,13 @@ cubic-bezier(n,n,n,n) [Eigene Kurve]
 
 ## :hover und :active
 
-Die CSS Pseudoklassen `:hover` und `:active` bezeichnen Zustände eines HTML-Elements. `:hover` bezeichnet ein Element, über dem der Cursor schwebt, `:active` steht für ein Element, das angeklickt wird (Maustaste gedrückt).
+Die CSS [Pseudo-Klassen](https://developer.mozilla.org/de/docs/Web/CSS/Pseudo-classes) `:hover` und `:active` bezeichnen Zustände eines HTML-Elements. `:hover` bezeichnet ein Element, über dem der Cursor schwebt, `:active` steht für ein Element, das angeklickt wird (Maustaste gedrückt).
+
 Ein Problem im Zusammenhang mit CSS-Transitions stellt sich bei Touch-Devices. Das Tippen mit dem Finger entspricht dem Klick mit der Maus oder dem Trackpad. Die Pseudoklasse `:hover` existiert auf Tablets und Smartphones nicht: es gibt nur `:active`.
-Nun lässt sich mit JavaScript erreichen, dass das einmalige Antippen eines Elements als `:hover` interpretiert wird, und erst das zweite Tippen als `:active`.
-Mit JavaScript lässt sich nicht nur beliebig manipulieren, wie der Browser Quelltext verarbeitet, sondern auch wie er Interaktionen prozes-siert. Es stellt sich natürlich die Frage, wie sinnvoll es ist, eine Art der Interaktion, die auf den Eigenschaften des Cursors basiert, in eine Umgebung ohne Cursor zu Übersetzen.
+
+Mit JavaScript lässt sich erreichen, dass das einmalige Antippen eines Elements als `:hover` interpretiert wird, und erst das zweite Tippen als `:active`. Mit JavaScript lässt sich nicht nur beliebig manipulieren, wie der Browser Quelltext verarbeitet, sondern auch wie er Interaktionen prozes-siert. Es stellt sich natürlich die Frage, wie sinnvoll es ist, eine Art der Interaktion, die auf den Eigenschaften des Cursors basiert, in eine Umgebung ohne Cursor zu Übersetzen.
+
+Wie mit der Problematik umgegangen wird, ist Ermessenssache und hängt davon ab, ob CSS-Transitions je nach Art des Endgeräts unterschiedlich gehandhabt werden.
 
 ## Links
 
