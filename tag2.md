@@ -183,8 +183,8 @@ h1 {
 }
 
 @keyframes titel {
-  from { /* Anfangswert */ }
-  to { /* Endwert */ }
+  from { /* Eigenschaft: Anfangswert; */ }
+  to { /* Eigenschaft: Endwert; */ }
 }
 
 a:link,
