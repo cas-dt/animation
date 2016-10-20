@@ -17,10 +17,10 @@ Es lassen sich alle Eigenschaften animieren, die mit numerischen Werten definier
 Interpolieren von Position, Grösse, Drehung und Deckkraft verbraucht wenig Rechenleistung
 
 ```css
-    transform: translate(npx, npx); /* Position, Pixelwert */
-    transform: scale(n);            /* Grösse, Faktor      */
-    transform: rotate(ndeg);        /* Rotation, Winkel    */
-    opacity:   n;                   /* Deckkraft, 0–1      */
+transform: translate(npx, npx); /* Position, Pixelwert */
+transform: scale(n);            /* Grösse, Faktor      */
+transform: rotate(ndeg);        /* Rotation, Winkel    */
+opacity:   n;                   /* Deckkraft, 0–1      */
 ```
 
 Weitere Information zur CSS-Eigenschaft `transform` finden sich z.B. im [entsprechenden Artikel des Mozilla Developer Networks](https://developer.mozilla.org/de/docs/Web/CSS/transform).
@@ -30,14 +30,14 @@ Weitere Information zur CSS-Eigenschaft `transform` finden sich z.B. im [entspre
 Die CSS Eigenschaft animation fasst folgende Eigenschaften zusammen:
 
 ```css
-    animation-name            /* Referenz für @keyframes, siehe unten          */
-    animation-duration        /* Sekunden oder Millisekunden                   */
-    animation-timing-function /* linear, ease, ease-in, ease-in-out, ease-out  */
-    animation-delay           /* Sekunden oder Millisekunden                   */
-    animation-iteration-count /* 0–infinite                                    */
-    animation-direction       /* normal, reverse, alternate, alternate-reverse */
-    animation-fill-mode       /* none, forwards, backwards, both               */
-    animation-play-state      /* paused, running                               */
+animation-name            /* Referenz für @keyframes, siehe unten          */
+animation-duration        /* Sekunden oder Millisekunden                   */
+animation-timing-function /* linear, ease, ease-in, ease-in-out, ease-out  */
+animation-delay           /* Sekunden oder Millisekunden                   */
+animation-iteration-count /* 0–infinite                                    */
+animation-direction       /* normal, reverse, alternate, alternate-reverse */
+animation-fill-mode       /* none, forwards, backwards, both               */
+animation-play-state      /* paused, running                               */
 ```
 
 ### @keyframes
@@ -87,10 +87,10 @@ Für ältere Browser-Versionen sind [Vendor-Prefixes](https://developer.mozilla.
 Die CSS Eigenschaft transition fasst folgende Eigenschaften zusammen:
 
 ```css
-    transition-property  [Eine CSS-Eigenschaft]
-    transition-duration  [Sekunden oder Millisekunden]
-    transition-timing-function  [linear, ease, ease-in, ease-in-out, ease-out]
-    transition-delay  [Sekunden oder Millisekunden]
+transition-property  [Eine CSS-Eigenschaft]
+transition-duration  [Sekunden oder Millisekunden]
+transition-timing-function  [linear, ease, ease-in, ease-in-out, ease-out]
+transition-delay  [Sekunden oder Millisekunden]
 ```
 
 ### Beispiel
