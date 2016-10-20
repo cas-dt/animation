@@ -148,6 +148,8 @@ Wie mit der Problematik umgegangen wird, ist Ermessenssache und hängt davon ab,
 
 Aufgabe: Den HTML- und CSS-Code unten in CodePen übertragen. Titel mit `animation` auszeichnen, Links mit `transition`. Einmal dezent, einmal extravagant. CodePen-Link per Slack an die Lehrperson.
 
+Hilfestellung zu [CSS-Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations) und zu [CSS-Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions).
+
 ```html
 <div id="spalte">
   <h1>Bienengarnele</h1>
@@ -238,12 +240,13 @@ Das [Ganze in CodePen](http://codepen.io/oolong32/pen/xEmGQW).
 
 ## Coding / Specs
 
+* [Mozilla Developer Network – Using CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+* [Mozilla Developer Network – Using CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+* [Mozilla Developer Network – @keyframes](https://developer.mozilla.org/de/docs/Web/CSS/@keyframes)
 * [CSS Tricks – Animation](https://css-tricks.com/almanac/properties/a/animation/)
 * [CSS Tricks – Transition](https://css-tricks.com/almanac/properties/t/transition/)
 * [CSS Animatable Properties](oli.jp/2010/css-animatable-properties/)
 * [CSS Animation Rocks](https://cssanimation.rocks/)
-[Mozilla Developer Network – Using CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
-* [Mozilla Developer Network – @keyframes](https://developer.mozilla.org/de/docs/Web/CSS/@keyframes)
 * [CSS Transitions Standard](www.w3.org/TR/css3-transitions/)
 * [W3C Working Draft – CSS Animations Standard](www.w3.org/TR/css3-animations/)
 * [Paul Lewis & Paul Irish – High Performance Animations](www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
