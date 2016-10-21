@@ -63,7 +63,7 @@ Die Reihenfolge der Werte ist nur teilweise geregelt. Als erstes muss der Name a
 
 Achtung beim Animieren von Text: Inline-Elemente wie `<p>` erstrecken sich über die ganze Spalte, dadurch ist der Referenzpunkt meist anderswo als erwartet (der Referenzpunkt ist beispielsweise das Zentrum einer Rotation).
 
-Um beispielsweise ein kurzes Wort zu rotieren, kann die Darstellungsform von inline zu inline-block geändert werdn, dadurch passt sich die Grösse des Elements an seinen Inhalt an.
+Um ein kurzes Wort zu rotieren, kann die Darstellungsform von inline zu inline-block geändert werdn, dadurch passt sich die Grösse des Elements an seinen Inhalt an.
 
 Um zu sehen, wie gross ein Element ist, kann es helfen, einen `border: solid 1px black;` darum zu zeichnen oder den `background: hotpink;` zu färben.
 
@@ -132,7 +132,7 @@ Ein Problem im Zusammenhang mit CSS-Transitions stellt sich bei Touch-Devices. D
 
 Mit JavaScript lässt sich erreichen, dass das einmalige Antippen eines Elements als `:hover` interpretiert wird, und erst das zweite Tippen als `:active`. Mit JavaScript lässt sich nicht nur beliebig manipulieren, wie der Browser Quelltext verarbeitet, sondern auch wie er Interaktionen prozes-siert. Es stellt sich natürlich die Frage, wie sinnvoll es ist, eine Art der Interaktion, die auf den Eigenschaften des Cursors basiert, in eine Umgebung ohne Cursor zu Übersetzen.
 
-Wie mit der Problematik umgegangen wird, ist Ermessenssache und hängt davon ab, ob CSS-Transitions je nach Art des Endgeräts unterschiedlich gehandhabt werden.
+Wie mit der Problematik umgegangen wird, ist Ermessenssache und hängt davon ab, ob CSS-Transitions je nach Art des Endgeräts unterschiedlich gehandhabt werden soll.
 
 ### Referenzbeispiele
 
